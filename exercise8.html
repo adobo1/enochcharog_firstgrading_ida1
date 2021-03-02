@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Enoch Charog" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Registration Form Enoch Charog</title>
+  </head>
+
+  <body style="font-family: Tahoma">
+    <img
+      width="200px"
+      src="https://upload.wikimedia.org/wikipedia/commons/f/f2/University_of_Baguio_textlogo.png"
+      alt="UB Text Logo"
+    />
+    <br />
+    <p align="center"><b>Student Profile</b></p>
+    <br />
+    <hr
+      style="height: 1px; border: none; color: #333; background-color: #333"
+    />
+    <br />
+    <hr />
+    <br />
+
+    <form action="/action_page.php">
+      <label style="padding-right: 100px" for="studentnumber"
+        >Student Number:</label
+      >
+      <input type="number" id="studentnumber" name="studentnumber" />
+      <br /><br />
+
+      <label style="padding-right: 116px" for="studentname"
+        >Student Name:</label
+      >
+      <input type="text" id="studentname" name="studentname" />
+      ,&nbsp;
+      <input type="text" id="studentname" name="studentname" />
+      <input type="text" id="studentname" name="studentname" />
+      <br /><br /><br />
+
+      <label style="padding-right: 100px" for="course">Course/Program:</label>
+      <select style="width: 750px" name="cars" id="cars" form="carform">
+        <option>
+          BSIT (ICT) - BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY
+        </option>
+        <option>BSCS - BACHELOR OF COMPUTER SCIENCE</option>
+        <option>BSCpE - BACHELOR OF COMPUTER ENGINEERING</option>
+        <option>BSIS - BACHELOR OF SCIENCE IN INFORMATION SYSTEMS</option>
+      </select>
+      <br /><br />
+
+      <label style="padding-right: 140px" for="mobilenumber">Mobile No.:</label>
+      <input type="text" id="mobilenumber" name="mobilenumber" />
+
+      &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+      <label style="padding-right: 100px" for="emailadd">Email Address:</label>
+      <input type="text" id="emailadd" name="emailadd" />
+      <br /><br />
+
+      <label style="padding-right: 78px" for="residentialadd"
+        >Residential Address:</label
+      >
+      <input
+        type="text"
+        style="height: 70px; width: 300px"
+        id="residentialadd"
+        name="residentialadd"
+      />
+
+      &emsp;&emsp;&emsp;&emsp;&emsp;
+      <label style="padding-right: 62px" for="permanentadd"
+        >Permanent Address:</label
+      >
+      <input
+        style="height: 70px; width: 300px"
+        type="text"
+        id="permanentadd"
+        name="permanentadd"
+      />
+      <br /><br />
+
+      <label style="padding-right: 74px" for="permanentregion"
+        >(Permanent) Region:</label
+      >
+      <input
+        placeholder="- region -"
+        style="width: 320px"
+        type="text"
+        id="permanentregion"
+        name="permanentregion"
+      />
+      <br /><br />
+
+      <label style="padding-right: 63px" for="permanentprovince"
+        >(Permanent) Province:</label
+      >
+      <input
+        placeholder="- province -"
+        style="width: 230px"
+        type="text"
+        id="permanentprovince"
+        name="permanentprovince"
+      />
+      <br /><br />
+
+      <label style="padding-right: 128px" for="permanentmuni"
+        >(Permanent):</label
+      >
+      <input
+        placeholder="- municipality -"
+        type="text"
+        id="permanentmuni"
+        name="permanentmuni"
+      />
+      <br />Municipality<br /><br />
+
+      <label style="padding-right: 78px" for="permanenttelno"
+        >Permanent Tel. No.:</label
+      >
+      <input type="text" id="permanenttelno" name="permanenttelno" />
+      <br /><br />
+
+      <label style="padding-right: 127px" for="dateofbirth"
+        >Date of Birth:</label
+      >
+      <input
+        style="width: 80px"
+        type="text"
+        id="dateofbirth"
+        name="dateofbirth"
+      />
+      <input
+        style="width: 20px"
+        type="text"
+        id="dateofbirth"
+        name="dateofbirth"
+      />,
+      <input
+        style="width: 40px"
+        type="text"
+        id="dateofbirth"
+        name="dateofbirth"
+      />
+
+      &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;
+      <label style="padding-right: 112px" for="placeofbirth"
+        >Place of Birth:</label
+      >
+      <input
+        style="width: 300px"
+        type="text"
+        id="placeofbirth"
+        name="placeofbirth"
+      />
+      <br /><br />
+
+      <label style="padding-right: 170px" for="gender">Gender:</label>
+      <input type="radio" name="gender" id="male" value="male" />
+      <label for="male">Male</label>
+      <input type="radio" name="gender" id="female" value="female" />
+      <label for="female">Female</label>
+
+      &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;
+      <label style="padding-right: 146px" for="religion">Religion:</label>
+      <input
+        placeholder="- religion -"
+        style="width: 260px"
+        type="text"
+        id="religion"
+        name="religion"
+      />
+      <br /><br />
+
+      <label style="padding-right: 142px" for="nationality">Nationality:</label>
+      <input
+        placeholder="Filipino"
+        style="width: 100px"
+        type="text"
+        id="nationality"
+        name="nationality"
+      />
+
+      &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;
+      <label style="padding-right: 129px" for="civilstatus"
+        >Civil Status:</label
+      >
+      <input placeholder="- civil staus -" />
+      <br /><br />
+    </form>
+  </body>
+</html>
